@@ -1,0 +1,19 @@
+## KidMix CirclCI configuration
+
+machine:
+  timezone:
+    America/New_York
+
+dependencies:
+  pre:
+    - sudo apt-get update
+    - sudo apt-get -y install realpath
+    - sudo pip install awscli
+
+deployment:
+  development:
+    branch: master
+    owner: cgoldberg1
+    commands:
+      - ${HOME}/${CIRCLE_PROJECT_REPONAME}/tools/slack_notify.sh dev "Deploy *$CIRCLE_PROJECT_REPONAME/$CIRCLE_BRANCH* started"
+      - aws s3 sync . s3://com.kidmixapp.web.staging/ --acl public-read
