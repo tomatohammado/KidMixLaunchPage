@@ -17,4 +17,4 @@ deployment:
     branch: master
     owner: cgoldberg1
     commands:
-      - aws s3 sync . s3://com.kidmixapp.web.staging/ --acl public-read
+      - aws s3 sync . s3://com.kidmixapp.web.staging/ --acl public-read --exclude ".git" --exclude "circle.yml" --exclude "README.md"
