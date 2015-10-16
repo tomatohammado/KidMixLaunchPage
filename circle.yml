@@ -13,6 +13,11 @@ test:
     - echo true
 
 deployment:
+  production:
+    tag: /release-.*/
+    owner: cgoldberg1
+    commands:
+      - aws s3 sync ./dist s3://kidmixapp.com/ --acl public-read
   development:
     branch: master
     owner: cgoldberg1
