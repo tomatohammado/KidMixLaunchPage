@@ -17,6 +17,7 @@ deployment:
     tag: /release-.*/
     owner: cgoldberg1
     commands:
+      - ${HOME}/${CIRCLE_PROJECT_REPONAME}/tools/slack_notify.sh general "Deploying *$CIRCLE_BRANCH* to http://kidmixapp.com"
       - aws s3 sync ./dist s3://kidmixapp.com/ --acl public-read
   development:
     branch: master
