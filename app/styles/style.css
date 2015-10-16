@@ -1,0 +1,118 @@
+body { 
+font-family: "Open Sans", sans-serif;
+font-weight:300;
+color:#5e5e5e;
+}
+
+h1 {
+font-family: "Open Sans", sans-serif;
+font-weight:600;
+margin-top:30px;
+color:#fff;
+font-size:4em;
+text-shadow: 2px 2px #979d79;
+}
+
+h1 small {
+font-family: "Open Sans", sans-serif;
+font-weight:300;
+margin:0;
+color:#fff;
+font:1.8em;
+}
+
+h2 {
+font-family: "Open Sans", sans-serif;
+font-weight:300;
+font-size:3em;
+margin:0;
+color:#FFFFFF;
+}
+
+h3, h5, h6 {
+font-family: "Open Sans", sans-serif;
+font-weight:300;
+margin:0;
+color:#FFFFFF;
+}
+
+h4 {
+font-family: "Open Sans", sans-serif;
+font-weight:300;
+font-size:1.3em;
+margin:0;
+color:#5e5e5e;
+}
+
+/** Header Navigation **/
+.kidmix-hero
+{
+	background-image:url(../images/kidmix-hero.jpg); background-repeat:no-repeat; background-size:cover;
+	min-height:600px;
+}
+
+/** Header Navigation **/
+
+header .navbar {
+	padding:15px 0;}
+	
+header .navbar-default {
+	background-color: transparent;
+	border:none;
+}
+
+header .navbar-default .navbar-nav a {
+	color:#60aff2;
+	font-size: 1.6em;
+}
+
+header .navbar-default .navbar-nav a:hover,
+header .navbar-default .navbar-nav a:focus {
+  color: #1a7ba2;
+}
+
+/** Navbar Brand **/
+
+header .navbar-brand img {
+	vertical-align:top;
+
+}
+
+/** Sign Up **/
+.sign-up-box {background-color:#60aff2; padding: 30px 0;}
+.sign-up-box h3 { margin-bottom:10px;}
+.disclaimer {
+	font-size:.6em;}
+
+.sign-up-box p {
+	color:#fff;}
+
+/** Why KidMix and Features Headers **/
+
+.features { background-color:#ae5adf;
+padding: 25px 0;
+}
+
+.feature-box {
+	padding-top: 50px;
+}
+
+.feature-box img {
+ padding-top: 20px;
+ padding-bottom: 60px;
+	}
+
+.feature-box h4 {
+	padding-bottom:15px; padding-top:20px;
+}
+
+.feature-box-long {
+	padding-top: 30px;
+}
+
+.feature-box-long h4 {
+	padding-bottom:15px; 
+}
+/** Footer **/
+
+footer p { font-size:.8em; padding-top:60px;}
