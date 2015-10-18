@@ -1,3 +1,5 @@
+'use strict';
+
 // ADDITIONAL JQUERY VALIDATE METHODS
 (function($) {
 	$.validator.addMethod("zipcodeUS", function(value, element) {
