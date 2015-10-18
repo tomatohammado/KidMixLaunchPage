@@ -1,7 +1,8 @@
 body { 
 font-family: "Open Sans", sans-serif;
 font-weight:300;
-color:#5e5e5e;
+xcolor:#5e5e5e;
+color:#3e3e3e;
 }
 
 h1 {
@@ -38,7 +39,7 @@ color:#FFFFFF;
 
 h4 {
 font-family: "Open Sans", sans-serif;
-font-weight:300;
+font-weight:400;
 font-size:1.1em;
 margin:0;
 color:#5e5e5e;
@@ -47,14 +48,52 @@ color:#5e5e5e;
 /** Header Navigation **/
 .kidmix-hero
 {
-	background-image:url(../images/kidmix-hero.jpg); background-repeat:no-repeat; background-size:cover;
-	min-height:600px;
+	background-color: #76c278;
+	background-image:url(../images/kidmix-hero.jpg); 
+	background-repeat:no-repeat; 
+	background-size:cover;
+	background-position: center top;
+	min-height:	600px;
+}
+
+@media( max-width: 767px) {
+	.kidmix-hero {
+		background-position: -180px 40px;
+	}
+	h1 {
+		font-size: 3em;
+	}
+}
+
+@media (min-width: 1400px) {
+	.kidmix-hero {
+		background-position: 0px -160px;
+	}
 }
 
 /** Header Navigation **/
 
+@media (max-width: 767px) {
+	.navbar {
+		margin-bottom:0px;
+	}
+	.navbar-header {
+		height:80px;
+	}
+	.navbar-header button {
+		margin:25px 20px;
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar-nav li a {
+		line-height: 56px;
+	}
+}
+
 header .navbar {
-	padding:15px 0;}
+	xpadding:15px 0;
+}
 	
 header .navbar-default {
 	background-color: transparent;
@@ -73,13 +112,29 @@ header .navbar-default .navbar-nav a:focus {
 
 /** Navbar Brand **/
 
-header .navbar-brand img {
-	vertical-align:top;
+@media (min-width: 768px) {
+	header .navbar-brand img {
+		width:180px;
+	}
+}
 
+
+@media (max-width: 767px) {
+	header .navbar-brand img {
+		height:50px;
+	}	
+}
+
+header .navbar-brand a {
+	padding:0px;
 }
 
 /** Sign Up **/
-.sign-up-box {background-color:#60aff2; padding: 30px 0;}
+.sign-up-box {
+	background-color:#60aff2; 
+	padding-top: 30px; 
+	padding-bottom: 30px;
+}
 .sign-up-box h3 { margin-bottom:10px;}
 .disclaimer {
 	font-size:.6em;}
@@ -90,20 +145,33 @@ header .navbar-brand img {
 /** Why KidMix and Features Headers **/
 
 .features { background-color:#ae5adf;
-padding: 25px 0;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 .feature-box {
 	padding-top: 50px;
+	padding-bottom: 60px;
+}
+
+@media(max-width: 767px) {
+	.feature-box {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	#why-kidmix-container {
+		padding-bottom: 40px;
+	}
 }
 
 .feature-box img {
- padding-top: 20px;
- padding-bottom: 60px;
-	}
+	padding-top: 20px;
+}
+
 
 .feature-box h4 {
-	padding-bottom:15px; padding-top:20px;
+	padding-bottom:15px; 
+	padding-top:20px;
 }
 
 .feature-box-long {
@@ -114,6 +182,47 @@ padding: 25px 0;
 	padding-bottom:15px; 
 	font-size:1.3em;
 }
+
+@media( max-width: 767px) {
+	.feature-box-long h4 {
+		padding-top: 20px;
+		text-align: center;
+	}
+	.feature-box-long img {
+		display: block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+}
+
 /** Footer **/
 
 footer p { font-size:.8em; padding-top:60px;}
+
+/** Mailchimp form **/
+
+#mc_embed_signup {
+	margin-top:		20px;
+	margin-bottom: 	20px;
+	max-width:400px;
+}
+
+#mc_embed_signup input.mce_inline_error { 
+	border-color:#ef325f;
+}
+
+#mc_embed_signup div.mce_inline_error {
+	margin-top:10px; 
+	padding: 10px 16px 10px 16px; 
+	background-color:#ef325f; 
+	font-weight: bold;
+	font-size:14px; 
+	z-index: 1; 
+	color:#fff;
+	display:inline-block; 
+	border-radius:6px;
+}
+
+#mc_embed_signup button {
+	font-weight: bold;
+}
