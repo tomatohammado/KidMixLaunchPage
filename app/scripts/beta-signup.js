@@ -1,5 +1,3 @@
-'use strict';
-
 // ADDITIONAL JQUERY VALIDATE METHODS
 (function($) {
 	$.validator.addMethod("zipcodeUS", function(value, element) {
@@ -226,10 +224,6 @@
 	fnames[1]='FNAME';ftypes[1]='text';
 	fnames[2]='LNAME';ftypes[2]='text';
 	fnames[3]='ZIPCODE';ftypes[3]='zip';
-}(jQuery));
-
-(function($) {
-	console.log(typeof $);
 }(jQuery));
 
 //var $mcj = jQuery.noConflict(true);
