@@ -17,7 +17,7 @@ $("#nav ul li a[href^='#']").on('click', function(e) {
 		});
 	}
 
-	if($('.navbar-toggler').is(':visible')) {
+	if($('.navbar-toggle').is(':visible')) {
 
 		$('#navbar-collapse').one('hidden.bs.collapse', function () {
 			navigate();			 		
