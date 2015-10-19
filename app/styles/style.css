@@ -1,7 +1,6 @@
 body { 
 font-family: "Open Sans", sans-serif;
 font-weight:300;
-xcolor:#5e5e5e;
 color:#3e3e3e;
 }
 
@@ -42,7 +41,7 @@ font-family: "Open Sans", sans-serif;
 font-weight:400;
 font-size:1.1em;
 margin:0;
-color:#5e5e5e;
+color:#3e3e3e;
 }
 
 /** Header Navigation **/
@@ -186,6 +185,17 @@ header .navbar-brand a {
 .sign-up-box p {
 	color:#fff;
 }
+
+.indicates-required-message {
+	color:#fff;
+	font-family: "Open Sans", sans-serif;
+	font-weight:400;
+	font-size:1.2em;
+	margin:0;
+	padding-bottom:5px;
+}
+
+
 
 /** Why KidMix and Features Headers **/
 
