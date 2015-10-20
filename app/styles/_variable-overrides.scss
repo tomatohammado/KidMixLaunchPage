@@ -1,0 +1,17 @@
+// =============================================================================
+// COLORS
+// =============================================================================
+
+$km-red: 			#ef325f;
+$km-blue:	 		#60aff2;
+$km-green:			#73d175;
+$km-purple:			#ae5adf;
+$km-orange:			#fcb959;
+$km-yellow:			#fce959;	
+
+$brand-primary:         darken($km-blue, 6.5%) !default;
+$brand-success:         $km-green !default;
+$brand-info:            $km-green !default;
+$brand-warning:         $km-orange !default;
+$brand-danger:          $km-red !default;
+
