@@ -224,6 +224,7 @@
 	fnames[1]='FNAME';ftypes[1]='text';
 	fnames[2]='LNAME';ftypes[2]='text';
 	fnames[3]='ZIPCODE';ftypes[3]='zip';
+	fnames[4]='FULLNAME';ftypes[4]='text';
 }(jQuery));
 
 //var $mcj = jQuery.noConflict(true);
