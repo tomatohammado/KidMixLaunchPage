@@ -29,6 +29,5 @@ deployment:
     branch: master
     owner: cgoldberg1
     commands:
-      - rm -r dist/*
       - grunt build
       - aws s3 sync ./dist s3://staging.kidmixapp.com/ --acl public-read 
