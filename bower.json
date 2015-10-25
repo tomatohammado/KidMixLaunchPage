@@ -4,9 +4,10 @@
   "dependencies": {
     "bootstrap-sass": "~3.3.5",
     "jquery-validation": "~1.14.0",
-    "jquery-form": "~3.46.0"
+    "jquery-form": "~3.46.0",
+    "components-font-awesome": "~4.4.0"
   },
-   "overrides": {
+  "overrides": {
     "bootstrap-sass": {
       "main": [
         "assets/stylesheets/_bootstrap.scss",

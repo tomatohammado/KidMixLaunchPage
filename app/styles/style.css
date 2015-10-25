@@ -133,6 +133,10 @@ color:#3e3e3e;
 	}
 }
 
+.navbar-nav li a {
+	line-height: 0px;
+}
+
 header .navbar-default {
 	background-color: transparent;
 	border:none;

@@ -7,10 +7,14 @@
     <meta name="description" content="Private social network designed for kids to communicate, learn, &#38; share thoughts and photos with their friends.">
     <link rel="shortcut icon" href="/favicon.ico">
     <title>KidMix | The Social Network Designed for Kids</title>
-    <!-- Bootstrap -->
+
+    <script src="https://use.typekit.net/mxo0iql.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
     <!-- build:css(.tmp) styles/main.css -->
     <link href="styles/main.css" rel="stylesheet" >
     <!-- endbuild -->
+
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,196 +23,206 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+
   <body>
 
-  <header>
-    <nav id="nav" class="navbar navbar-default" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="/"><img src="images/kidmix-logo.svg" alt="KidMix"></a>
+    <header>
+      <nav id="nav" class="navbar navbar-default" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"><img src="images/kidmix-logo.svg" alt="KidMix"></a>
+          </div>
+          <div class="collapse navbar-collapse" id="navbar-collapse">
+            <div class="hidden-xs">
+              <div class="social-buttons pull-right">
+                <a href="https://www.facebook.com/kidmixapp" target="_blank"><span class="fa fa-facebook"></span></a>
+                <a href="https://twitter.com/KidMixApp" target="_blank"><span class="fa fa-twitter"></span></a>
+                <a href="https://instagram.com/kidmixapp/" target="_blank"><span class="fa fa-instagram"></span></a>
+                <a href="https://www.pinterest.com/thekidmix/" target="_blank"><span class="fa fa-pinterest"></span></a>
+                <a href="https://www.linkedin.com/company/kidmix" target="_blank"><span class="fa fa-linkedin"></span></a>
+              </div>
+            </div>
+            <ul class="nav navbar-nav">
+              <li><a href="#sign-up-box">Beta Signup</a></li>
+              <li><a href="#why-kidmix">Why KidMix?</a></li>
+              <li><a href="#features">Features</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="collapse navbar-collapse" id="navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#sign-up-box">Beta Signup</a></li>
-            <li><a href="#why-kidmix">Why KidMix?</a></li>
-            <li><a href="#features">Features</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
+      </nav>
+    </header>
 
-<!-- begin hero image -->
-<div class="kidmix-hero-wrapper">
-<div class="container-fluid kidmix-hero">
-<div class="row text-center">
-<div class="col-sm-12">
-<h1>KidMix <br><small>The Social Network Designed for Kids</small></h1>
-</div>
-</div><!-- end row -->
-</div>
-<!-- end hero image -->
-</div>
-<!-- begin signup area -->
-<div id="sign-up-box" class="container-fluid sign-up-box">
-<div class="row">
-<div class="col-sm-12 text-center">
-<h3>Coming soon for iOS and Android.</h3>
-<h3>Sign up now for an invitation to join our beta release.</h3>
-</div>
-</div><!-- end row -->
-
-<div class="row">
-  <div class="col-xs-12">
-    <div class="center-block" id="mc_embed_signup">
-      <div class="indicates-required-message pull-right">
-        * indicates required
+    <!-- begin hero image -->
+    <div class="kidmix-hero-wrapper">
+      <div class="container-fluid kidmix-hero">
+        <div class="row text-center">
+          <div class="col-sm-12">
+            <h1 class="tkff-dagny-web-pro">KidMix <br><small>The Social Network Designed for Kids</small></h1>
+          </div>
+        </div><!-- end row -->
       </div>
-      <form action="//kidmixapp.us11.list-manage.com/subscribe/post?u=cc2efb533427e180d352b8ce0&amp;id=982c58709c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <div id="mc_embed_signup_scroll">
-          <div class="form-group mc-field-group">
-            <label class="sr-only" for="mce-FULLNAME">Parent's Full Name</label>
-            <input class="form-control input-lg" type="text" value="" name="FULLNAME" id="mce-FULLNAME" placeholder="Parent's Full Name">
-          </div>        
-          <div class="form-group mc-field-group">
-            <label class="sr-only" for="mce-EMAIL">Parent's Email Address  <span class="asterisk">*</span></label>
-            <input class="form-control input-lg" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Parent's Email Address *">
-          </div>
-          <div class="form-group mc-field-group">
-            <label class="sr-only" for="mce-ZIPCODE">Zip Code</label>
-            <input class="form-control input-lg" placeholder="Zip Code" type="text" value="" name="ZIPCODE" id="mce-ZIPCODE">
-          </div>
-          <div id="mce-responses" class="clear">
-            <div class="alert alert-danger" id="mce-error-response" style="display:none"></div>
-            <div class="alert alert-info response" id="mce-success-response" style="display:none"></div>
-          </div>
-          <div class="form-group pull-right" style="position: absolute; left: -5000px;">
-            <input type="text" name="b_cc2efb533427e180d352b8ce0_982c58709c" tabindex="-1" value=""></div>
-            <button class="btn btn-lg btn-warning btn-block" type="submit">Sign Up for KidMix Beta</button>
-          </div>
-      </form>
+      <!-- end hero image -->
     </div>
-  </div>
-</div>
+    <!-- begin signup area -->
+    <div id="sign-up-box" class="container-fluid sign-up-box">
+    <div class="row">
+    <div class="col-sm-12 text-center">
+    <h3>Coming soon for iOS and Android.</h3>
+    <h3>Sign up now for an invitation to join our beta release.</h3>
+    </div>
+    </div><!-- end row -->
 
-<div class="row">
-<div class="col-sm-12 text-center">
-<p class="disclaimer">We collect your email address only for the purpose of communicating updates about the KidMix App directly to you.</p>
-</div>
-</div><!-- end row -->
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="center-block" id="mc_embed_signup">
+          <div class="indicates-required-message pull-right">
+            * indicates required
+          </div>
+          <form action="//kidmixapp.us11.list-manage.com/subscribe/post?u=cc2efb533427e180d352b8ce0&amp;id=982c58709c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+              <div class="form-group mc-field-group">
+                <label class="sr-only" for="mce-FULLNAME">Parent's Full Name</label>
+                <input class="form-control input-lg" type="text" value="" name="FULLNAME" id="mce-FULLNAME" placeholder="Parent's Full Name">
+              </div>        
+              <div class="form-group mc-field-group">
+                <label class="sr-only" for="mce-EMAIL">Parent's Email Address  <span class="asterisk">*</span></label>
+                <input class="form-control input-lg" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Parent's Email Address *">
+              </div>
+              <div class="form-group mc-field-group">
+                <label class="sr-only" for="mce-ZIPCODE">Zip Code</label>
+                <input class="form-control input-lg" placeholder="Zip Code" type="text" value="" name="ZIPCODE" id="mce-ZIPCODE">
+              </div>
+              <div id="mce-responses" class="clear">
+                <div class="alert alert-danger" id="mce-error-response" style="display:none"></div>
+                <div class="alert alert-info response" id="mce-success-response" style="display:none"></div>
+              </div>
+              <div class="form-group pull-right" style="position: absolute; left: -5000px;">
+                <input type="text" name="b_cc2efb533427e180d352b8ce0_982c58709c" tabindex="-1" value=""></div>
+                <button class="btn btn-lg btn-warning btn-block" type="submit">Sign Up for KidMix Beta</button>
+              </div>
+          </form>
+        </div>
+      </div>
+    </div>
 
-</div><!-- end signup area -->
-<!-- begin why kidmix -->
-<div id="why-kidmix" class="container-fluid features">
-<div class="row">
-<div class="col-sm-12 text-center">
-<h2>Why KidMix?</h2>
-</div>
-</div><!-- end row -->
-</div><!-- end container -->
-<div id="why-kidmix-container" class="container">
-<div class="row">
-<div class="col-sm-4 text-center feature-box">
-<h4> Safely communicate with Friends Online</h4>
-<img src="images/icon-communicate-safely.png">
-</div>
-<div class="col-sm-4 text-center feature-box">
-<h4>Parental Monitoring for All Activity</h4>
-<img src="images/icon-parental-monitoring.png">
-</div>
-<div class="col-sm-4 text-center feature-box">
-<h4> Kids can create their own Playdates!</h4>
-<img src="images/icon-schedule-playdate.png">
-</div>
-</div><!-- end row -->
-</div><!-- end container -->
-<!-- end why kidmix -->
-<!-- begin features -->
-<div id="features" class="container-fluid features">
-<div class="row">
-<div class="col-sm-12 text-center">
-<h2>Features</h2>
-</div>
-</div><!-- end row -->
-</div><!-- end container -->
-<div class="container">
-<div class="row feature-box-long">
-<div class="col-sm-2 col-xs-12">
-<img src="images/icon-parental-monitoring.png">
-</div>
-<div class="col-sm-10 col-xs-12">
-  <h4>Safe &amp; Secure Kid’s Network with Parental Monitoring</h4>
-  <p>All Parents are ID verified before they can create online profiles for their children.  The parent dashboard provides full oversight of all your child’s online activity.</p>
-</div>
-</div><!-- end row -->
-<div class="row feature-box-long">
-<div class="col-sm-2">
-<img src="images/icon-schedule-playdate.png">
-</div>
-<div class="col-sm-10">
-  <h4>Playdate Scheduler</h4>
-  <p>Kids simply schedule their own playdates with Parental Confirmation.</p>
-</div>
-</div><!-- end row -->
-<div class="row feature-box-long">
-<div class="col-sm-2">
-<img src="images/icon-bully-free.png">
-</div>
-<div class="col-sm-10">
-  <h4>Communicate with Friends without bullying</h4>
-  <p>Kids can post their own status updates and like or comment on their friend’s posts in an anonymous way. Our platform helps ensure a no negativity/non-bullying environment by using our built in commenting system.</p>
-</div>
-</div><!-- end row -->
-<div class="row feature-box-long">
-<div class="col-sm-2">
-<img src="images/icon-share-photos.png">
-</div>
-<div class="col-sm-10">
-  <h4>Photo Sharing/Editing &amp; Custom Characters</h4>
-  <p>Kids can post their own photos once approved by their parents. Our optional Photo editor and Character Creator allows them to add fun stickers and create their own custom characters to share!</p>
-</div>
-</div><!-- end row -->
-<div class="row feature-box-long">
-<div class="col-sm-2">
-<img src="images/icon-calendar.png">
-</div>
-<div class="col-sm-10">
-  <h4>Calendar</h4>
-  <p>Online Calendar for your kids to keep track of their playdates and other planned events. Parents can update their kid’s calendar to track parties, practices, and other important events.</p>
-</div>
-</div><!-- end row -->
-<div class="row feature-box-long">
-<div class="col-sm-2">
-<img src="images/icon-create-smartzone.png">
-</div>
-<div class="col-sm-10">
-  <h4>SmartZone</h4>
-  <p>A collection of educational/entertaining kid safe videos that kids can access. Kids can save and share their favorites with their friends.</p>
-</div>
-</div><!-- end row -->
-<div class="row feature-box-long">
-<div class="col-sm-2">
-<img src="images/icon-group-creator.png">
-</div>
-<div class="col-sm-10">
-  <h4>Group Creator</h4>
-  <p>Group your child’s friends, teammates, classmates, clubs, and other buddies to enable easy and direct communication.</p>
-</div>
-</div><!-- end row -->
+    <div class="row">
+    <div class="col-sm-12 text-center">
+    <p class="disclaimer">We collect your email address only for the purpose of communicating updates about the KidMix App directly to you.</p>
+    </div>
+    </div><!-- end row -->
 
-</div><!-- end container -->
-<!-- end features -->
-<footer>
-<div class="content container text-center">
-<p>&copy; 2015 KidMix LLC.  All rights reserved.  KidMix, the KidMix logo and the phrase "The Social Network Designed for Kids" are all trademarks of KidMix, LLC.</p>
-</div><!--content container-->
-</footer>
+    </div><!-- end signup area -->
+    <!-- begin why kidmix -->
+    <div id="why-kidmix" class="container-fluid features">
+    <div class="row">
+    <div class="col-sm-12 text-center">
+    <h2>Why KidMix?</h2>
+    </div>
+    </div><!-- end row -->
+    </div><!-- end container -->
+    <div id="why-kidmix-container" class="container">
+    <div class="row">
+    <div class="col-sm-4 text-center feature-box">
+    <h4> Safely communicate with Friends Online</h4>
+    <img src="images/icon-communicate-safely.png">
+    </div>
+    <div class="col-sm-4 text-center feature-box">
+    <h4>Parental Monitoring for All Activity</h4>
+    <img src="images/icon-parental-monitoring.png">
+    </div>
+    <div class="col-sm-4 text-center feature-box">
+    <h4> Kids can create their own Playdates!</h4>
+    <img src="images/icon-schedule-playdate.png">
+    </div>
+    </div><!-- end row -->
+    </div><!-- end container -->
+    <!-- end why kidmix -->
+    <!-- begin features -->
+    <div id="features" class="container-fluid features">
+    <div class="row">
+    <div class="col-sm-12 text-center">
+    <h2>Features</h2>
+    </div>
+    </div><!-- end row -->
+    </div><!-- end container -->
+    <div class="container">
+    <div class="row feature-box-long">
+    <div class="col-sm-2 col-xs-12">
+    <img src="images/icon-parental-monitoring.png">
+    </div>
+    <div class="col-sm-10 col-xs-12">
+      <h4>Safe &amp; Secure Kid’s Network with Parental Monitoring</h4>
+      <p>All Parents are ID verified before they can create online profiles for their children.  The parent dashboard provides full oversight of all your child’s online activity.</p>
+    </div>
+    </div><!-- end row -->
+    <div class="row feature-box-long">
+    <div class="col-sm-2">
+    <img src="images/icon-schedule-playdate.png">
+    </div>
+    <div class="col-sm-10">
+      <h4>Playdate Scheduler</h4>
+      <p>Kids simply schedule their own playdates with Parental Confirmation.</p>
+    </div>
+    </div><!-- end row -->
+    <div class="row feature-box-long">
+    <div class="col-sm-2">
+    <img src="images/icon-bully-free.png">
+    </div>
+    <div class="col-sm-10">
+      <h4>Communicate with Friends without bullying</h4>
+      <p>Kids can post their own status updates and like or comment on their friend’s posts in an anonymous way. Our platform helps ensure a no negativity/non-bullying environment by using our built in commenting system.</p>
+    </div>
+    </div><!-- end row -->
+    <div class="row feature-box-long">
+    <div class="col-sm-2">
+    <img src="images/icon-share-photos.png">
+    </div>
+    <div class="col-sm-10">
+      <h4>Photo Sharing/Editing &amp; Custom Characters</h4>
+      <p>Kids can post their own photos once approved by their parents. Our optional Photo editor and Character Creator allows them to add fun stickers and create their own custom characters to share!</p>
+    </div>
+    </div><!-- end row -->
+    <div class="row feature-box-long">
+    <div class="col-sm-2">
+    <img src="images/icon-calendar.png">
+    </div>
+    <div class="col-sm-10">
+      <h4>Calendar</h4>
+      <p>Online Calendar for your kids to keep track of their playdates and other planned events. Parents can update their kid’s calendar to track parties, practices, and other important events.</p>
+    </div>
+    </div><!-- end row -->
+    <div class="row feature-box-long">
+    <div class="col-sm-2">
+    <img src="images/icon-create-smartzone.png">
+    </div>
+    <div class="col-sm-10">
+      <h4>SmartZone</h4>
+      <p>A collection of educational/entertaining kid safe videos that kids can access. Kids can save and share their favorites with their friends.</p>
+    </div>
+    </div><!-- end row -->
+    <div class="row feature-box-long">
+    <div class="col-sm-2">
+    <img src="images/icon-group-creator.png">
+    </div>
+    <div class="col-sm-10">
+      <h4>Group Creator</h4>
+      <p>Group your child’s friends, teammates, classmates, clubs, and other buddies to enable easy and direct communication.</p>
+    </div>
+    </div><!-- end row -->
+
+    </div><!-- end container -->
+    <!-- end features -->
+    <footer>
+    <div class="content container text-center">
+    <p>&copy; 2015 KidMix LLC.  All rights reserved.  KidMix, the KidMix logo and the phrase "The Social Network Designed for Kids" are all trademarks of KidMix, LLC.</p>
+    </div><!--content container-->
+    </footer>
     
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->

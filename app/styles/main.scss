@@ -4,6 +4,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "bower_components/components-font-awesome/scss/font-awesome.scss";
 // endbower
 
 body { 
@@ -52,7 +53,8 @@ margin:0;
 color:#3e3e3e;
 }
 
-/** Header Navigation **/
+/** KidMix Hero **/
+
 .kidmix-hero
 {
   background-color: #76c278;
@@ -137,7 +139,10 @@ color:#3e3e3e;
 
 @media (min-width: 768px) {
   .navbar-nav li a {
-    line-height: 56px;
+    line-height: 40px;
+  }
+  #navbar-collapse {
+    float:right;
   }
 }
 
@@ -149,6 +154,7 @@ header .navbar-default {
 header .navbar-default .navbar-nav a {
   color:#60aff2;
   font-size: 1.6em;
+  font-weight: 300;
 }
 
 header .navbar-default .navbar-nav a:hover,
@@ -156,14 +162,19 @@ header .navbar-default .navbar-nav a:focus {
   color: #1a7ba2;
 }
 
+header .navbar {
+  margin-bottom : 0px;
+}
+
 /** Navbar Brand **/
 
 @media (min-width: 768px) {
   header .navbar-brand img {
-    width:180px;
+    xwidth:180px;
+    height:73px;
+    xheight:100%;
   }
 }
-
 
 @media (max-width: 767px) {
   header .navbar-brand img {
@@ -175,7 +186,26 @@ header .navbar-brand a {
   padding:0px;
 }
 
+/** Header Social Links **/
+
+.social-buttons {
+  padding-right:15px;
+  padding-top:15px;  
+}
+
+.social-buttons a {
+  font-size: 1.3em;
+  padding-left: 10px;
+  padding-right: 10px;
+  &:last-child {
+    padding-right:3px;
+  } 
+}
+
+
+
 /** Sign Up **/
+
 .sign-up-box {
   background-color:#60aff2; 
   padding-top: 30px; 
