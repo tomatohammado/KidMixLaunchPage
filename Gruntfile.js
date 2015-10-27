@@ -288,7 +288,8 @@ module.exports = function (grunt) {
           removeOptionalTags: true,
           // true would impact styles with attribute selectors
           removeRedundantAttributes: false,
-          useShortDoctype: true
+          useShortDoctype: true,
+          keepClosingSlash: true
         },
         files: [{
           expand: true,
