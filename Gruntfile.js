@@ -24,6 +24,9 @@ module.exports = function (grunt) {
     dist: 'dist'
   };
 
+  // Assemble builds static site content
+  grunt.loadNpmTasks('assemble');
+
   // Define the configuration for all the tasks
   grunt.initConfig({
 
@@ -203,6 +206,30 @@ module.exports = function (grunt) {
       }
     },
 
+    assemble: {
+      options: {
+        layoutdir: 'app/layouts'
+      },
+      docs: {
+        options: {
+          layout: 'docs-layout.hbs',
+          flatten: true
+        },
+        files: {
+	  'app/docs/': ['app/templates/*.hbs']
+	}
+      },
+      device_docs: {
+        options: {
+          layout: 'device-docs-layout.hbs',
+	  flatten: true
+        },
+        files: {
+          'app/device-docs/': ['app/templates/*.hbs']
+        }
+      }
+    },
+
     // Automatically inject Bower components into the HTML file
     wiredep: {
       app: {
@@ -235,9 +262,10 @@ module.exports = function (grunt) {
     // additional tasks can operate on them
     useminPrepare: {
       options: {
-        dest: '<%= config.dist %>'
+        dest: '<%= config.dist %>',
+        root: 'app'
       },
-      html: '<%= config.app %>/index.html'
+      html: ['<%= config.app %>/index.html', '<%= config.app %>/docs/*.html']
     },
 
     // Performs rewrites based on rev and the useminPrepare configuration
@@ -374,7 +402,6 @@ module.exports = function (grunt) {
     }
   });
 
-
   grunt.registerTask('serve', 'start the server and preview your app', function (target) {
 
     if (target === 'dist') {
@@ -413,6 +440,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('build', [
     'clean:dist',
+    'assemble',
     'wiredep',
     'useminPrepare',
     'concurrent:dist',
