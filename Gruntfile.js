@@ -216,13 +216,13 @@ module.exports = function (grunt) {
           flatten: true
         },
         files: {
-	  'app/docs/': ['app/templates/*.hbs']
-	}
+          'app/': ['app/templates/*.hbs']
+        }
       },
       device_docs: {
         options: {
           layout: 'device-docs-layout.hbs',
-	  flatten: true
+          flatten: true
         },
         files: {
           'app/device-docs/': ['app/templates/*.hbs']
