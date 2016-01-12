@@ -20,14 +20,14 @@ test:
 deployment:
   production:
     tag: /release-.*/
-    owner: cgoldberg1
+    owner: KidMixApp 
     commands:
       - grunt build
       - ${HOME}/${CIRCLE_PROJECT_REPONAME}/tools/slack_notify.sh general "<!channel> Deploying *$CIRCLE_TAG* to http://kidmixapp.com"
       - aws s3 sync ./dist s3://kidmixapp.com/ --acl public-read
   development:
     branch: master
-    owner: cgoldberg1
+    owner: KidMixApp 
     commands:
       - grunt build
       - aws s3 sync ./dist s3://staging.kidmixapp.com/ --acl public-read 
