@@ -63,11 +63,9 @@ color:#3e3e3e;
 .kidmix-hero
 {
   background-color: #76c278;
-  // background-image:url(../images/kidmix-hero.jpg); 
   background-repeat:no-repeat; 
   background-size:cover;
   background-position: center top;
-  min-height: 600px;
 }
 
 @media (max-width: 320px) {
@@ -105,7 +103,6 @@ color:#3e3e3e;
 @media (min-width: 1400px) {
   .kidmix-hero {
     background-position: 0px 0px;
-    // background-image:url(../images/kidmix-hero-large.jpg); 
     background-position: cover;
     min-height: 1000px;
 
@@ -118,7 +115,6 @@ color:#3e3e3e;
 @media (min-width: 2200px) {
   .kidmix-hero {
     background-position: 0px 0px;
-    // background-image:url(../images/kidmix-hero-large.jpg);
     background-position: cover;
     min-height: 1600px;
 
@@ -227,6 +223,7 @@ header .navbar-brand a {
   background-color:#60aff2; 
   padding-top: 30px; 
   padding-bottom: 30px;
+  position: relative;
 }
 
 .sign-up-box h3 { 
