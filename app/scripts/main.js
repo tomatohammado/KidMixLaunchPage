@@ -39,5 +39,6 @@ $("#nav ul li a[href^='#']").on('click', function(e) {
 
 // bootstrap carousel configuration
 $('#kidmix-hero-carousel').carousel({
-  interval: 2000
+  interval: 3500,
+  pause: "false"
 })
