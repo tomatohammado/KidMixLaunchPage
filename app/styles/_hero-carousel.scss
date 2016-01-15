@@ -1,0 +1,30 @@
+/** KidMix Hero **/
+
+#kidmix-hero-carousel {
+  .item {
+    background-color: #76c278;
+    
+    background-repeat:no-repeat; 
+    background-size:cover;
+    background-position: center top;
+    min-height: 600px;
+
+    @media (min-width: 1400px) {
+      background-position: 0px 0px;
+      background-position: cover;
+      min-height: 1000px;
+    }
+  } //.item
+} // #kidmix-hero-carousel
+
+.kidmix-hero-wrapper .kidmix-hero {
+  padding: 0;
+  
+  .row:first-of-type {
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}
