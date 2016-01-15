@@ -2,12 +2,12 @@
 
 #kidmix-hero-carousel {
   .item {
-    background-color: #76c278;
-    
+    transition: transform 1.2s ease-in-out;
+
     background-repeat:no-repeat; 
     background-size:cover;
     background-position: center top;
-    min-height: 500px;
+    min-height: $km-carousel-slide-height;
 
     @media (min-width: 1400px) {
       background-position: 0px 0px;
@@ -81,7 +81,7 @@
 } // #kidmix-hero-carousel
 
 .kidmix-hero-wrapper {
-  max-height: 750px;
+  max-height: $km-carousel-slide-height;
   .kidmix-hero {
     padding: 0;
     .row:first-of-type {
