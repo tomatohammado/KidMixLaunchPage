@@ -1,6 +1,7 @@
 $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
 @import "_variable-overrides";
+@import "_hero-carousel";
 
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
@@ -62,7 +63,7 @@ color:#3e3e3e;
 .kidmix-hero
 {
   background-color: #76c278;
-  background-image:url(../images/kidmix-hero.jpg); 
+  // background-image:url(../images/kidmix-hero.jpg); 
   background-repeat:no-repeat; 
   background-size:cover;
   background-position: center top;
@@ -104,7 +105,7 @@ color:#3e3e3e;
 @media (min-width: 1400px) {
   .kidmix-hero {
     background-position: 0px 0px;
-    background-image:url(../images/kidmix-hero-large.jpg); 
+    // background-image:url(../images/kidmix-hero-large.jpg); 
     background-position: cover;
     min-height: 1000px;
 
@@ -117,7 +118,7 @@ color:#3e3e3e;
 @media (min-width: 2200px) {
   .kidmix-hero {
     background-position: 0px 0px;
-    background-image:url(../images/kidmix-hero-large.jpg); 
+    // background-image:url(../images/kidmix-hero-large.jpg);
     background-position: cover;
     min-height: 1600px;
 
