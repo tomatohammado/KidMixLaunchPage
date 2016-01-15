@@ -12,7 +12,7 @@
     @media (min-width: 1400px) {
       background-position: 0px 0px;
       background-position: cover;
-      min-height: 1000px;
+      // min-height: 1000px;
     }
   } //.item
 
@@ -84,12 +84,13 @@
   max-height: $km-carousel-slide-height;
   .kidmix-hero {
     padding: 0;
-    .row:first-of-type {
-      position: absolute;
-      z-index: 100;
-      left: 0;
-      right: 0;
-      margin: 0 auto;
-    } // .row:first-of-type
   } // .kidmix-hero
+  
+  .kidmix-hero-textOverlay {
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  } // .kidmix-hero-textOverlay
 } // .kidmix-hero-wrapper
