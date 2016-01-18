@@ -36,6 +36,7 @@ $("#nav ul li a[href^='#']").on('click', function(e) {
 
 }(jQuery));
 
+$.fn.carousel.Constructor.TRANSITION_DURATION = 1200;
 
 // bootstrap carousel configuration
 $('#kidmix-hero-carousel').carousel({
