@@ -1,0 +1,44 @@
+header {
+  .navbar
+  {
+    // background-color: #fff;
+  }
+  
+  .navbar-brand .logo {
+    height: 45px;
+  }
+
+
+  // Social buttons
+  .social-buttons {
+    padding-right: 32px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    a {
+        font-size: 1.3em;
+        padding-right: 12px;
+        &:last-child {
+          padding-right:3px;
+        } 
+
+        @media (min-width: 321px) {
+          padding-right: 20px;
+        }
+
+        @media (min-width: 768px) {
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+
+      }
+
+  }
+
+  .social-buttons-container {
+      @media (min-width: 768px) {
+        float:right;
+      }
+  }
+
+}

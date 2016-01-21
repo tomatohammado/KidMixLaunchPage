@@ -171,53 +171,53 @@ header .navbar {
 
 /** Navbar Brand **/
 
-@media (min-width: 768px) {
-  header .navbar-brand img {
-    height:73px;
-  }
-}
+// @media (min-width: 768px) {
+//   header .navbar-brand img {
+//     height:73px;
+//   }
+// }
 
-@media (max-width: 767px) {
-  header .navbar-brand img {
-    height:50px;
-  } 
-}
+// @media (max-width: 767px) {
+//   header .navbar-brand img {
+//     height:50px;
+//   } 
+// }
 
-header .navbar-brand a {
-  padding:0px;
-}
+// header .navbar-brand a {
+//   padding:0px;
+// }
 
 /** Header Social Links **/
 
-.social-buttons {
-  padding-right:32px;
-  padding-top:15px;
+// .social-buttons {
+//   padding-right:32px;
+//   padding-top:15px;
 
-}
+// }
 
-.social-buttons-container {
-    @media (min-width: 768px) {
-      float:right;
-    }
-}
+// .social-buttons-container {
+//     @media (min-width: 768px) {
+//       float:right;
+//     }
+// }
 
-.social-buttons a {
-  font-size: 1.3em;
-  padding-right: 12px;
-  &:last-child {
-    padding-right:3px;
-  } 
+// .social-buttons a {
+//   font-size: 1.3em;
+//   padding-right: 12px;
+//   &:last-child {
+//     padding-right:3px;
+//   } 
 
-  @media (min-width: 321px) {
-    padding-right: 20px;
-  }
+//   @media (min-width: 321px) {
+//     padding-right: 20px;
+//   }
 
-  @media (min-width: 768px) {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
+//   @media (min-width: 768px) {
+//     padding-left: 10px;
+//     padding-right: 10px;
+//   }
 
-}
+// }
 
 /** Sign Up **/
 
