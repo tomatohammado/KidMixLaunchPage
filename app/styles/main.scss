@@ -14,6 +14,7 @@ body {
 font-family: "Open Sans", sans-serif;
 font-weight:300;
 color:#3e3e3e;
+position: relative;
 }
 
 .generic-container {
@@ -352,4 +353,8 @@ footer p { font-size:.8em; padding-top:60px;}
 
 #mc_embed_signup button {
   font-weight: bold;
+}
+
+#content-wrapper {
+  position: relative;
 }
