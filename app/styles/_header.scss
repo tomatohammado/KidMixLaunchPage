@@ -1,19 +1,17 @@
 header {
-  .navbar
-  {
+  .navbar {
     background-color: #fff;
     width: 100%;
     top: 0;
     border-radius: 0;
-  }
+  } // .navbar
 
   .navbar-brand {
     height: auto;
     .logo {
       height: 40px;
-    }
-  }
-
+    } // .logo
+  } // .navbar-brand
 
   // Social buttons
   .social-buttons {
@@ -22,34 +20,31 @@ header {
 
     @media (min-width: 768px) {
       padding-right: 32px;
-    }
+    } // .social-buttons min-w 768px
 
     a {
-        font-size: 1.3em;
-        padding-right: 12px;
-        &:last-child {
-          padding-right:3px;
-        } 
+      font-size: 1.3em;
+      padding-right: 12px;
+      &:last-child {
+        padding-right:3px;
+      } // a:last-child 
 
-        @media (min-width: 321px) {
-          padding-right: 20px;
-        }
+      @media (min-width: 321px) {
+        padding-right: 20px;
+      } // a min-w 321px
 
-        @media (min-width: 768px) {
-          padding-left: 10px;
-          padding-right: 10px;
-        }
-
-      }
-
-  }
+      @media (min-width: 768px) {
+        padding-left: 10px;
+        padding-right: 10px;
+      } // a min-w 768px
+    } // a
+  } // ..social-buttons
 
   .social-buttons-container {
-      @media (min-width: 768px) {
-        float:right;
-      }
+    @media (min-width: 768px) {
+      float:right;
+    } // .social-buttons-container min-w 768px
   }
-
 }
 
 #social-sharing  {
