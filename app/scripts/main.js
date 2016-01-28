@@ -39,15 +39,15 @@ $("#nav ul li a[href^='#']").on('click', function(e) {
 $.fn.carousel.Constructor.TRANSITION_DURATION = 1200;
 
 // bootstrap carousel configuration
-$('#kidmix-hero-carousel').carousel({
+$('#km-hero-carousel').carousel({
   interval: 5500,
   pause: "false"
 })
 
 $('#nav').on('affixed-top.bs.affix', function () {
-	$('#content-wrapper').css('top', '0px');
+	$('#km-homepage').css('top', '0px');
 })
 
 $('#nav').on('affixed.bs.affix', function () {
-	$('#content-wrapper').css('top', '70px');
+	$('#km-homepage').css('top', '70px');
 })
