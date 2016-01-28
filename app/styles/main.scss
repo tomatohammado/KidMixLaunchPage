@@ -1,7 +1,7 @@
 $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
-@import "_variable-overrides";
-@import "_hero-carousel";
+@import "_variables";
+@import "_homepage-hero";
 @import "_header";
 @import "_layout";
 
@@ -309,6 +309,6 @@ footer p { font-size:.8em; padding-top:60px;}
   font-weight: bold;
 }
 
-#content-wrapper {
+#km-homepage {
   position: relative;
 }

@@ -1,6 +1,6 @@
 /** KidMix Hero **/
 
-#kidmix-hero-carousel {
+#km-hero-carousel {
   .item {
     transition: transform 1.2s ease-in-out;
 
@@ -62,17 +62,13 @@
 
 } // #kidmix-hero-carousel
 
-.kidmix-hero-wrapper {
+.km-hero {
   max-height: $km-carousel-slide-height;
-  .kidmix-hero {
-    padding: 0;
-  } // .kidmix-hero
-
-  .kidmix-hero-textOverlay {
+  .textOverlay {
     position: absolute;
     z-index: 100;
     left: 0;
     right: 0;
     margin: 0 auto;
-  } // .kidmix-hero-textOverlay
-} // .kidmix-hero-wrapper
+  } // .textOverlay
+} // .km-hero
