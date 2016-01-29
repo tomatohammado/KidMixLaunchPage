@@ -13,7 +13,7 @@
 	window.mc = {
 
 		/**
-	  	 *	Open the evil popup		
+	   * Open the evil popup		
 		 */
 		openPopup: function() {
 			$('#mc_embed_signup a.mc_embed_close').show();
