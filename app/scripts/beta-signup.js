@@ -225,6 +225,7 @@
 	fnames[2]='LNAME';ftypes[2]='text';
 	fnames[3]='ZIPCODE';ftypes[3]='zip';
 	fnames[4]='FULLNAME';ftypes[4]='text';
+	fnames[5]='ROLE';ftypes[5]='dropdown';
 }(jQuery));
 
 //var $mcj = jQuery.noConflict(true);
