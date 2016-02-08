@@ -36,13 +36,13 @@ $("#nav ul li a[href^='#']").on('click', function(e) {
 
 }(jQuery));
 
-$.fn.carousel.Constructor.TRANSITION_DURATION = 1200;
+// $.fn.carousel.Constructor.TRANSITION_DURATION = 1200;
 
-// bootstrap carousel configuration
-$('#km-hero-carousel').carousel({
-  interval: 5500,
-  pause: "false"
-})
+// // bootstrap carousel configuration
+// $('#km-hero-carousel').carousel({
+//   interval: 5500,
+//   pause: "false"
+// })
 
 $('#nav').on('affixed-top.bs.affix', function () {
 	$('#km-homepage').css('top', '0px');
