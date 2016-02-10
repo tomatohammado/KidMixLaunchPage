@@ -49,5 +49,5 @@ $('#nav').on('affixed-top.bs.affix', function () {
 })
 
 $('#nav').on('affixed.bs.affix', function () {
-	$('#km-homepage').css('top', '70px');
+	$('#km-homepage').css('top', '73px');
 })
