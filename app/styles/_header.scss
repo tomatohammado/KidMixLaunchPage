@@ -10,6 +10,7 @@ header {
 
   .navbar-brand {
     height: auto;
+    padding-top: 10px;
 
     // because we have a "beta" placeholder, we need to change the display type 
     // so the text fits the same line
@@ -30,50 +31,48 @@ header {
     } // .logo
   } // .navbar-brand
 
-  // Social buttons
-  .social-buttons {
-    padding-top: 5px;
-    padding-bottom: 5px;
 
-    @media (min-width: 768px) {
-      padding-right: 32px;
-    } // .social-buttons min-w 768px
-
-    a {
-      color: #fff;
-      padding-right: 12px;
-      &:last-child {
-        padding-right:3px;
-      } // a:last-child 
-
-      @media (min-width: 321px) {
-        padding-right: 20px;
-      } // a min-w 321px
-
-      @media (min-width: 768px) {
-        padding-left: 10px;
-        padding-right: 10px;
-      } // a min-w 768px
-    } // a
-  } // ..social-buttons
-
-  .social-buttons-container {
-    @media (min-width: 768px) {
-      float:right;
-    } // .social-buttons-container min-w 768px
+  .navbar-collapse {
+    margin-top: 10px;
+    .btn {
+      font-size: 16pt;
+      font-weight: 300;
+      border: 1px solid #fff;
+    }
   }
+
+
+
+
+
+
+
+  #social-sharing  {
+    background-color: #4696DF; // $variable;
+
+    .social-buttons {
+      padding-top: 5px;
+
+      a {
+        color: #fff;
+        padding-right: 12px;
+        &:last-child {
+          padding-right:3px;
+        } // a:last-child 
+        @media (min-width: 321px) {
+          padding-right: 20px;
+        } // a min-w 321px
+        @media (min-width: 768px) {
+          padding-left: 10px;
+          padding-right: 10px;
+        } // a min-w 768px
+
+      } // a
+    } // .social-buttons
+  } // .social-sharing
+  
+  
 }
-
-#social-sharing  {
-  background-color: #4696DF; // $variable;
-}
-
-
-
-
-
-
-
 
 
 #role-selector{
