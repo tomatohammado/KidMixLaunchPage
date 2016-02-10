@@ -130,29 +130,7 @@ h4 {
 }
 
 /** Header Navigation **/
-
-@media (max-width: 767px) {
-  .navbar {
-    margin-bottom:0px;
-  }
-
-  .navbar-header button {
-    margin:15px;
-    margin-right:30px;
-  }
-}
-
-@media (min-width: 768px) {
-  .navbar-nav li a {
-    line-height: 40px;
-  }
-  #navbar-collapse {
-    float:right;
-  }
-}
-
 header .navbar-default {
-  // background-color: transparent;
   border:none;
 }
 
@@ -160,18 +138,6 @@ header .navbar-default .navbar-nav a {
   font-weight: 300;
   color: #fff; // bootstrap overwrite
 }
-
-header .navbar-default .navbar-nav a:hover,
-header .navbar-default .navbar-nav a:focus {
-  // color: #1a7ba2;
-}
-
-header .navbar {
-  margin-bottom : 0px;
-}
-
-/** Navbar Brand **/
-// moved to _header.scss
 
 /** Sign Up **/
 
