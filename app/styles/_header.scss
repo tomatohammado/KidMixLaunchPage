@@ -4,6 +4,7 @@ header {
     width: 100%;
     top: 0;
     border-radius: 0;
+    font-color: #fff;
   } // .navbar
 
   .navbar-brand {
@@ -19,6 +20,7 @@ header {
       font-size: 2em;
       font-weight: 700;
       vertical-align: middle;
+      color: #fff;
       text-shadow: 2px 2px #084796; // color variable?
     }
 
@@ -37,7 +39,7 @@ header {
     } // .social-buttons min-w 768px
 
     a {
-      font-size: 1.3em;
+      color: #fff;
       padding-right: 12px;
       &:last-child {
         padding-right:3px;
@@ -62,7 +64,7 @@ header {
 }
 
 #social-sharing  {
-  background-color: #eee;
+  background-color: #4696DF; // $variable;
 }
 
 

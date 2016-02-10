@@ -157,14 +157,13 @@ header .navbar-default {
 }
 
 header .navbar-default .navbar-nav a {
-  color:#60aff2; // color variable?
-  font-size: 1.6em;
   font-weight: 300;
+  color: #fff; // bootstrap overwrite
 }
 
 header .navbar-default .navbar-nav a:hover,
 header .navbar-default .navbar-nav a:focus {
-  color: #1a7ba2;
+  // color: #1a7ba2;
 }
 
 header .navbar {
