@@ -15,8 +15,15 @@ header {
       display: inline-block;
     }
 
+    .beta-indicator {
+      font-size: 2em;
+      font-weight: 700;
+      vertical-align: middle;
+      text-shadow: 2px 2px #084796; // color variable?
+    }
+
     .logo {
-      height: 40px;
+      height: 48px;
     } // .logo
   } // .navbar-brand
 
