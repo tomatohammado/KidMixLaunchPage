@@ -67,3 +67,14 @@
     }
   } //#sign-up-box
 } // .km-hero
+
+#role-selector {
+  font-size: 18pt;
+  background-color: #fff; 
+  ul {
+    list-style: none;
+    li { 
+      display: inline-block;
+    } // li
+  } // ul
+} // #role-selector
