@@ -3,5 +3,37 @@
   h1 {
     color: #084796;
     text-shadow: 1px 1px #fff; 
-  }
-}
+  } // h1
+
+  ul {
+    list-style: none;
+    li {
+      font-size: 14pt;
+      color: #000;
+      text-shadow: none;
+      padding-top: 10px;
+      padding-bottom: 10px;
+
+      .active-wrapper {
+        height: 48px; 
+        background-image: url('../images/features-selected.png');
+        background-repeat: no-repeat;
+
+        a {
+          height: 48px; 
+          width: 100%;
+          color: #000;
+          padding: 10px;
+          padding-left: 28px; 
+          display: table-cell;
+          &:hover {
+            text-decoration: none;
+          } // :&:hover
+        } // a
+
+      }
+
+      
+    } // li
+  } // ul
+} // #features
