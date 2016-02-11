@@ -139,6 +139,7 @@ header .navbar-default .navbar-nav a {
   color: #fff; // bootstrap overwrite
 }
 
+
 /** Sign Up **/
 .sign-up-box h3 { 
   margin-bottom:10px;
@@ -241,12 +242,6 @@ header .navbar-default .navbar-nav a {
 footer p { font-size:.8em; padding-top:60px;}
 
 /** Mailchimp form **/
-
-#mc_embed_signup {
-  margin-top:   20px;
-  margin-bottom:  20px;
-  max-width:400px;
-}
 
 #mc_embed_signup input.mce_inline_error { 
   border-color:#ef325f;
