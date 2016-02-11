@@ -63,7 +63,7 @@
 
             <!-- .navbar-brand: for Logo and "Beta" -->
             <a class="navbar-brand" hr1ef="/">
-              <img class="logo" src="images/kidmix-logo.svg" alt="KidMix">
+              <img class="logo" src="images/logo-kidmix.png" alt="KidMix">
 
               <span class="beta-indicator">Beta</span>
 
@@ -115,7 +115,9 @@
 
           <!-- VIDEO/IMAGE -->
           <div class="col-sm-6">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/JHIugKjCQM4?rel=0" frameborder="0" allowfullscreen></iframe>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JHIugKjCQM4?rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
           </div>
 
           <!-- SIGNUP -->
@@ -127,19 +129,19 @@
 
                     <div class="form-group-lg mc-field-group col-sm-3">
                       <label class="sr-only" for="mce-FULLNAME">Parent's Name</label>
-                      <input class="form-control form-inline" type="text" value="" name="FULLNAME" id="mce-FULLNAME" placeholder="Parent's Name">
+                      <input class="form-control" type="text" value="" name="FULLNAME" id="mce-FULLNAME" placeholder="Parent's Name">
                     </div>        
                     <div class="form-group-lg mc-field-group col-sm-3">
                       <label class="sr-only" for="mce-EMAIL">Parent's Email Address  <span class="asterisk">*</span></label>
-                      <input class="form-control form-inline required email" type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Parent's Email Address *">
+                      <input class="form-control required email" type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Parent's Email Address *">
                     </div>
                     <div class="form-group-lg mc-field-group col-sm-3">
                       <label class="sr-only" for="mce-ZIPCODE">Zip Code</label>
-                      <input class="form-control form-inline" placeholder="Zip Code" type="text" value="" name="ZIPCODE" id="mce-ZIPCODE">
+                      <input class="form-control" placeholder="Zip Code" type="text" value="" name="ZIPCODE" id="mce-ZIPCODE">
                     </div>
                     <div class="form-group-lg mc-field-group hidden">
                       <label class="sr-only" for="mce-ROLE">Role </label>
-                      <select name="ROLE" class="form-control form-inline" id="mce-ROLE">
+                      <select name="ROLE" class="form-control" id="mce-ROLE">
                         <option value="Parent">Parent</option>
                         <option value="Teacher">Teacher</option>
                         <option value="Coache">Coach</option>
@@ -152,7 +154,7 @@
                     <div class="form-group pull-right" style="position: absolute; left: -5000px;">
                       <input type="text" name="b_cc2efb533427e180d352b8ce0_982c58709c" tabindex="-1" value="">
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-3 button-wrapper">
                       <button class="btn btn-lg btn-warning" type="submit">Sign Up</button>
                     </div
 
@@ -188,15 +190,25 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
 
-                  <!-- ITEM  -->
+                  <!-- ITEM 1 -->
                   <div class="item active">
-                    <img src="..." alt="...">
-                    
+                    <div class="image-wrapper col-sm-6">
+                      <img src="images/kid-dashboard.png" alt="...">
+                    </div>
+                    <div class="description-wrapper cols-sm-6">
+                      <p>Kids can post status updates, share photos, and send fun emojis to their friends!  Their friends can comment and like their messages all in a safe and anonymous manner.</p>
+                    </div>
                   </div>
 
                   <!-- ITEM 2 -->
                   <div class="item">
-                    <img src="..." alt="...">
+                    <div class="image-wrapper col-sm-6">
+                      <img src="images/screen-playdate-scheduler.png" alt="...">
+                    </div>
+
+                    <div class="description-wrapper cols-sm-6">
+                      <p>Kids simply schedule their own playdates with Parental Confirmation</p>
+                    </div>    
                   </div>
 
                 </div>
