@@ -19,11 +19,12 @@ header {
     }
 
     .beta-indicator {
-      font-size: 2em;
+      font-size: 24pt;
       font-weight: 700;
-      vertical-align: middle;
       color: #fff;
       text-shadow: 2px 2px #084796; // color variable?
+      position: relative;
+      top: 10px;
     }
 
     .logo {
