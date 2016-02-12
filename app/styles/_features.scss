@@ -44,6 +44,10 @@
 
   .description-wrapper {
     // position: absolute;
+    p {
+      text-shadow: none;
+      color: #000;
+    }
   }
 
 } // #features

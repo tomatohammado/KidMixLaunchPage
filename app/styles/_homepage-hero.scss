@@ -93,12 +93,14 @@
 #role-selector {
   font-size: 18pt;
   background-color: #fff; 
+  color: #0e73ba;
   ul {
     list-style: none;
     margin-bottom: 0;
 
     .active {
       position: relative;
+      color: #000;
       &:before {
         content: " ";
         // display: block; 
