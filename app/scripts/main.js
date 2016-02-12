@@ -43,3 +43,8 @@ $('#kidmix-hero-carousel').carousel({
   interval: 5500,
   pause: "false"
 })
+
+$('#screenshot-lightbox').carousel({
+  interval: 5500,
+  pause: "false"
+})

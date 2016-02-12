@@ -358,3 +358,9 @@ footer p { font-size:.8em; padding-top:60px;}
 .modal.and.carousel {
   position: absolute; // Needed because the carousel overrides the position property
 }
+
+#screenshot-lightbox {
+  img {
+    margin: 0 auto;
+  }
+}
