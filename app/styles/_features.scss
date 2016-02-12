@@ -15,9 +15,11 @@
       padding-bottom: 10px;
 
       .active-wrapper {
-        height: 48px; 
-        background-image: url('../images/features-selected.png');
-        background-repeat: no-repeat;
+        height: 48px;
+        &.active { 
+          background-image: url('../images/features-selected.png');
+          background-repeat: no-repeat;
+        }
 
         div {
           height: 48px; 

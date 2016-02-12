@@ -96,6 +96,25 @@
   ul {
     list-style: none;
     margin-bottom: 0;
+
+    .active {
+      position: relative;
+      &:before {
+        content: " ";
+        // display: block; 
+        width: 0; 
+        height: 0;
+        border-right: 12.5px solid transparent;       
+        border-left: 12.5px solid transparent;
+        border-bottom: 15px solid #fff;
+        position: absolute;
+        left: 36%;
+        margin-top: -35px; 
+        // margin-left: 1px;
+        z-index: 1; 
+      } // .active:before
+    } // .active
+
     li { 
       display: inline-block;
       margin-top: 10px;
@@ -103,20 +122,7 @@
       padding: 10px 50px;
       border-right: 1px solid #ACACAC;
 
-      .active:before {
-        content: " ";
-        display: block; 
-        width: 0; 
-        height: 0;
-        border-right: 12.5px solid transparent;       
-        border-left: 12.5px solid transparent;
-        border-bottom: 15px solid #aaa;
-        position: absolute;
-        right: 50%;
-        margin-top: -50px; 
-        margin-left: 1px;
-        z-index: 1; 
-      }
+      
     } // li
   } // ul
 } // #role-selector
