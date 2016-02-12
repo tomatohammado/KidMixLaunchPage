@@ -185,37 +185,50 @@
 
           <div class="row">
             <div class="col-sm-8 carousel-wrapper">
-              <div id="feature-carousel" class="carousel slide" data-ride="carousel">
+              <div id="feature-carousel" class="carousel slide" data-interval="false">
                 
                 <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
+                <div class="carousel-inner">
 
                   <!-- ITEM 1 -->
                   <div class="item active">
-                    <div class="image-wrapper col-sm-6">
+                    <div class="image-wrapper col-xs-6">
                       <img src="images/kid-dashboard.png" alt="...">
                     </div>
-                    <div class="description-wrapper col-sm-6">
+                    <div class="description-wrapper col-xs-12 col-sm-6">
                       <p>Kids can post status updates, share photos, and send fun emojis to their friends!  Their friends can comment and like their messages all in a safe and anonymous manner.</p>
                     </div>
                   </div>
 
                   <!-- ITEM 2 -->
                   <div class="item">
-                    <div class="image-wrapper col-sm-6">
+                    <div class="image-wrapper col-xs-6">
                       <img src="images/screen-playdate-scheduler.png" alt="...">
                     </div>
 
-                    <div class="description-wrapper col-sm-6">
+                    <div class="description-wrapper col-xs-12 col-sm-6">
                       <p>Kids simply schedule their own playdates with Parental Confirmation</p>
                     </div>    
                   </div>
 
                 </div>
               </div> <!-- #feature-carousel -->
-            </div> <!-- .carousel-wrapper --> 
 
-            <div class="col-sm-4">
+
+              <!-- Slider nav, MOBILE -->
+                <div class="col-xs-6 col-xs-push-6 hiden-sm">
+
+                  <ul>
+                    <li><div class="active-wrapper slide-one"><div>Online Kid Profiles</div></div></li>
+                    <li><div class="active-wrapper slide-two"><div>Playdate Scheduler</div></div></li>
+                  </ul>
+
+                </div>
+            </div> <!-- .carousel-wrapper col-sm-8 --> 
+
+
+            <!-- Slider nav, desktop -->
+            <div class="col-sm-4 visible-sm">
               
 
               <ul>

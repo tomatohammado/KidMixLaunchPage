@@ -41,7 +41,7 @@ $("#nav ul li a[href^='#']").on('click', function(e) {
 // bootstrap carousel configuration
 $('#feature-carousel').carousel({
   interval: 5500,
-  pause: "false"
+  // pause: "false"
 })
 
 $('#nav').on('affixed-top.bs.affix', function () {
