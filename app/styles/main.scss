@@ -353,3 +353,8 @@ footer p { font-size:.8em; padding-top:60px;}
 #mc_embed_signup button {
   font-weight: bold;
 }
+
+
+.modal.and.carousel {
+  position: absolute; // Needed because the carousel overrides the position property
+}
