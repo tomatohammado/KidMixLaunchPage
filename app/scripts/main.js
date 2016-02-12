@@ -51,3 +51,17 @@ $('#nav').on('affixed-top.bs.affix', function () {
 $('#nav').on('affixed.bs.affix', function () {
 	$('#km-homepage').css('top', '73px');
 })
+
+
+ $(function() {
+      
+      // Cycles the carousel to a particular frame 
+      $(".slide-one").click(function() {
+         $("#feature-carousel").carousel(0);
+      });
+      
+      $(".slide-two").click(function() {
+         $("#feature-carousel").carousel(1);
+      });
+      
+   });
