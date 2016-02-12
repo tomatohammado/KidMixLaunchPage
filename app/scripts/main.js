@@ -41,7 +41,7 @@ $("#nav ul li a[href^='#']").on('click', function(e) {
 // bootstrap carousel configuration
 $('#feature-carousel').carousel({
   interval: 5500,
-  // pause: "false"
+  pause: "false"
 })
 
 $('#nav').on('affixed-top.bs.affix', function () {
@@ -53,15 +53,15 @@ $('#nav').on('affixed.bs.affix', function () {
 })
 
 
- $(function() {
-      
-      // Cycles the carousel to a particular frame 
-      $(".slide-one").click(function() {
-         $("#feature-carousel").carousel(0);
-      });
-      
-      $(".slide-two").click(function() {
-         $("#feature-carousel").carousel(1);
-      });
-      
-   });
+$(function() {
+
+  // Cycles the carousel to a particular frame 
+  $(".slide-one").click(function() {
+     $("#feature-carousel").carousel(0);
+  });
+  
+  $(".slide-two").click(function() {
+     $("#feature-carousel").carousel(1);
+  });
+  
+});

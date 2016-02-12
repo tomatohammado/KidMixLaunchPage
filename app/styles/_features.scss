@@ -28,10 +28,10 @@
           display: table-cell;
           &:hover {
             text-decoration: none;
-          } // :&:hover
-        } // a
+          } // &:hover
+        } // div
 
-      }
+      } // .active-wrapper
 
     } // li
   } // ul
