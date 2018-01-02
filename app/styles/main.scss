@@ -69,7 +69,7 @@ h4 {
 
 .kidmix-hero
 {
-  background-color: #76c278;
+  // background-color: #76c278;
   background-repeat:no-repeat; 
   background-size:cover;
   background-position: center top;
@@ -132,6 +132,32 @@ h4 {
 }
 
 /** Header Navigation **/
+<<<<<<< HEAD
+=======
+
+@media (max-width: 991px) {
+  .navbar {
+    margin-bottom:0px;
+  }
+  .navbar-header {
+    height:80px;
+  }
+  .navbar-header button {
+    margin:25px 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-nav li a {
+    line-height: 40px;
+    font-size: 1.5em !important;
+  }
+  #navbar-collapse {
+    float:right;
+  }
+}
+
+>>>>>>> old-site-fixes
 header .navbar-default {
   border:none;
 }
@@ -141,6 +167,67 @@ header .navbar-default .navbar-nav a {
   color: #fff; // bootstrap overwrite
 }
 
+<<<<<<< HEAD
+=======
+header .navbar-default .navbar-nav a:hover,
+header .navbar-default .navbar-nav a:focus {
+  color: #1a7ba2;
+}
+
+header .navbar {
+  margin-bottom : 0px;
+}
+
+/** Navbar Brand **/
+
+@media (min-width: 992px) {
+  header .navbar-brand img {
+    height:73px;
+  }
+}
+
+@media (max-width: 991px) {
+  header .navbar-brand img {
+    height:50px;
+  } 
+}
+
+header .navbar-brand a {
+  padding:0px;
+}
+
+/** Header Social Links **/
+
+.social-buttons {
+  padding-right:32px;
+  padding-top:15px;
+
+}
+
+.social-buttons-container {
+    @media (min-width: 992px) {
+      float:right;
+    }
+}
+
+.social-buttons a {
+  font-size: 1.3em;
+  padding-right: 12px;
+  &:last-child {
+    padding-right:3px;
+  } 
+
+  @media (min-width: 321px) {
+    padding-right: 20px;
+  }
+
+  @media (min-width: 992px) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+}
+>>>>>>> old-site-fixes
 
 /** Sign Up **/
 .sign-up-box h3 { 
@@ -265,6 +352,35 @@ footer p { font-size:.8em; padding-top:60px;}
   font-weight: bold;
 }
 
+<<<<<<< HEAD
 #km-homepage {
   position: relative;
+=======
+
+.modal.and.carousel {
+  position: absolute; // Needed because the carousel overrides the position property
+}
+
+#screenshot-lightbox {
+  img {
+    margin: 0 auto;
+  }
+  &.modal {
+    text-align: center;
+    padding: 0!important;
+  }
+  &.modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+  }
+
+  .modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+  }
+>>>>>>> old-site-fixes
 }

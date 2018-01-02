@@ -15,6 +15,12 @@ $brand-info:            $km-green !default;
 $brand-warning:         $km-orange !default;
 $brand-danger:          $km-red !default;
 
+// Navbar collapse
+//** Point at which the navbar becomes uncollapsed.
+$grid-float-breakpoint:     992px !default;
+//** Point at which the navbar begins collapsing.
+$grid-float-breakpoint-max: ($grid-float-breakpoint - 1) !default;
+
 // =============================================================================
 // ICONS
 // =============================================================================

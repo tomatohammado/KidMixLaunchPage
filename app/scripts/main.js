@@ -44,6 +44,7 @@ $('#feature-carousel').carousel({
   pause: "false"
 })
 
+<<<<<<< HEAD
 $('#nav').on('affixed-top.bs.affix', function () {
 	$('#km-homepage').css('top', '0px');
 })
@@ -65,3 +66,9 @@ $(function() {
   });
   
 });
+=======
+$('#screenshot-lightbox').carousel({
+  interval: 5500,
+  pause: "false"
+})
+>>>>>>> old-site-fixes
