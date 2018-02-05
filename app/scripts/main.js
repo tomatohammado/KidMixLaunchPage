@@ -44,31 +44,7 @@ $('#feature-carousel').carousel({
   pause: "false"
 })
 
-<<<<<<< HEAD
-$('#nav').on('affixed-top.bs.affix', function () {
-	$('#km-homepage').css('top', '0px');
-})
-
-$('#nav').on('affixed.bs.affix', function () {
-	$('#km-homepage').css('top', '73px');
-})
-
-
-$(function() {
-
-  // Cycles the carousel to a particular frame 
-  $(".slide-one").click(function() {
-     $("#feature-carousel").carousel(0);
-  });
-  
-  $(".slide-two").click(function() {
-     $("#feature-carousel").carousel(1);
-  });
-  
-});
-=======
 $('#screenshot-lightbox').carousel({
   interval: 5500,
   pause: "false"
 })
->>>>>>> old-site-fixes
